@@ -8,7 +8,7 @@
 
 ~~~javascript
 ```
-	//目标数组
+//目标数组
   let arr = [5,1,8,2,6,9,7,3,0,4];
 	
   for(let i = 0; i < arr.length-1; i++){
@@ -39,7 +39,7 @@
         let temp = arr[j];
         arr[j] = arr[j+1];
         arr[j+1] = temp;
-				down = false;
+        down = false;
       }
     }
     if(down){
